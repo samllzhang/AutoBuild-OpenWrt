@@ -5,7 +5,7 @@
 # Author: eSirPlayground
 # Youtube Channel: https://goo.gl/fvkdwm 
 #=================================================
-#1. Modify default IP
+#1. 修改默认IP
 sed -i 's/192.168.1.1/192.168.1.1/g' openwrt/package/base-files/files/bin/config_generate
 
 #2. Clear the login password
